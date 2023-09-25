@@ -329,6 +329,51 @@ export const HomeSliderB = () => {
     </Fragment>
   );
 };
+export const HomeSliderE = () => {
+  const { active, setActive } = munfirmSlider();
+  return (
+    <Fragment>
+      <div
+        className={`slider-single-item slide-one bg-all ${
+          active == 1 ? "slick-active" : ""
+        }`}
+      >
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className="slider-images"></div>
+            </div>
+            <div className="col-lg-6">
+              <div className="slider-content">
+                <div className="sub-title mb-20">Wholesale Service </div>
+                <h1>What We Offer</h1>
+                <h6>
+                  As a family business, we offer a personal service tailored to
+                  your requirements. You can expect the finest locally grown
+                  fruit & veg, dairy products and dry and frozen produce.
+                </h6>
+                <div className="slider-btns mt-30">
+                  <Link href="/about">
+                    <a className="theme-btn style-two">
+                      Learn More <i className="fas fa-angle-double-right" />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="slide-shapes"></div>
+      </div>
+      {/* <button
+        className="slider-next slick-arrow"
+        onClick={() => setActive(active == 2 ? 1 : 2)}
+      >
+        <i className="fas fa-chevron-right" />
+      </button> */}
+    </Fragment>
+  );
+};
 export const HomeSliderC = () => {
   const { active, setActive } = munfirmSlider();
   return (

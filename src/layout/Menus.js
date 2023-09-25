@@ -16,7 +16,7 @@ export const Home = () => (
       <Link href="/fresh-produce">Fresh Produce</Link>
     </li>
     <li className="bg-clr">
-      <Link href="/index3">View All</Link>
+      <Link href="/what-we-offer">View All</Link>
     </li>
   </Fragment>
 );
