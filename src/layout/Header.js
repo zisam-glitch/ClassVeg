@@ -44,13 +44,7 @@ const SearchBtn = () => {
 const DaskTopMenu = () => (
   <ul className="navigation clearfix d-none d-lg-flex">
     <li className="dropdown">
-      <a href="#">What We Offer</a>
-      <ul>
-        <Home />
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
+      <a href="/what-we-offer">What We Offer</a>
     </li>
     <li className="dropdown">
       <a href="/about">About</a>
@@ -59,24 +53,6 @@ const DaskTopMenu = () => (
       <a href="/vacancies">Vacancies</a>
       
     </li>
-    {/* <li className="dropdown">
-      <a href="#">blog</a>
-      <ul>
-        <Blog />
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
-    </li>
-    <li className="dropdown">
-      <a href="#">shop</a>
-      <ul>
-        <Shop />
-      </ul>
-      <div className="dropdown-btn">
-        <span className="fas fa-chevron-down" />
-      </div>
-    </li> */}
     <Contact />
   </ul>
 );

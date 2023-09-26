@@ -1192,6 +1192,9 @@ blockquote,
   padding-bottom: 80px;
 }
 
+.c-p{
+  cursor: pointer;
+}
 .pt-10,
 .py-10 {
   padding-top: 10px;
@@ -4061,13 +4064,11 @@ blockquote,
   text-align: center;
 }
 .menu-icons .theme-btn {
-  margin-left: 40px;
-  margin-right: 40px;
+
 }
 @media only screen and (max-width: 1399px) {
   .menu-icons .theme-btn {
-    margin-left: 30px;
-    margin-right: 30px;
+
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -4123,7 +4124,7 @@ blockquote,
 .menu-sidebar {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 @media only screen and (min-width: 576px) and (max-width: 1199px) {
   .menu-sidebar {
@@ -4210,7 +4211,15 @@ blockquote,
 .hidden-bar .inner-box h4 {
   position: relative;
   color: #ffffff;
-  margin-bottom: 35px;
+  margin-bottom: 10px;
+}
+.white ul li a{
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.699);
+
+}
+.white ul li {
+  padding: 5px 0;
 }
 
 /*Appointment Form */
@@ -6037,6 +6046,9 @@ summary{
   position: relative;
   margin-bottom: 15px;
 }
+.white{
+  text-align: start;
+}
 .product-item .image img {
   top: 50%;
   left: 50%;
@@ -6056,9 +6068,13 @@ summary{
   font-weight: 600;
   font-family: "Livvic", sans-serif;
 }
-.product-item .price del:before,
-.product-item .price span:before {
-  content: "$";
+.center{
+  text-align: center;
+}
+.cont{
+  max-width: 1200px;
+  margin: auto;
+  padding: 120px 0;
 }
 .product-item .price del {
   color: #b1b1b1;

@@ -9,7 +9,7 @@ const MobileMenu = () => {
   return (
     <ul className="navigation clearfix d-block d-lg-none mobile-header">
       <li className="dropdown">
-        <a href="#">Home</a>
+        <a>What We Offer</a>
         <ul style={activeLi("home")}>
           <Home />
         </ul>
@@ -18,44 +18,13 @@ const MobileMenu = () => {
         </div>
       </li>
       <li className="dropdown">
-        <a href="#">pages</a>
-        <ul style={activeLi("pages")}>
-          <PagesMobile />
-        </ul>
-        <div className="dropdown-btn" onClick={() => activeMenuSet("pages")}>
-          <span className="fas fa-chevron-down" />
-        </div>
+        <a href="/about">About</a>
+
       </li>
       <li className="dropdown">
-        <a href="#">portfolio</a>
-        <ul style={activeLi("portfolio")}>
-          <Portfolio />
-        </ul>
-        <div
-          className="dropdown-btn"
-          onClick={() => activeMenuSet("portfolio")}
-        >
-          <span className="fas fa-chevron-down" />
-        </div>
+        <a href="/vacancies">Vacancies</a>
       </li>
-      <li className="dropdown">
-        <a href="#">blog</a>
-        <ul style={activeLi("blog")}>
-          <Blog />
-        </ul>
-        <div className="dropdown-btn" onClick={() => activeMenuSet("blog")}>
-          <span className="fas fa-chevron-down" />
-        </div>
-      </li>
-      <li className="dropdown">
-        <a href="#">shop</a>
-        <ul style={activeLi("shop")}>
-          <Shop />
-        </ul>
-        <div className="dropdown-btn" onClick={() => activeMenuSet("shop")}>
-          <span className="fas fa-chevron-down" />
-        </div>
-      </li>
+      
       <Contact />
     </ul>
   );
