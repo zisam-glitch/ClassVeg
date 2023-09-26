@@ -6191,6 +6191,9 @@ summary{
   text-transform: uppercase;
   background: #76a713;
 }
+.slick-list{
+  height: 450px;
+}
 
 .product-details-content .price {
   font-weight: 600;

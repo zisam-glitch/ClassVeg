@@ -62,9 +62,8 @@ const ContactUs = () => {
                 <div className="content">
                   <h4>Location</h4>
                   <span>
-                    Depot locations – Nottingham, UK Blackburn, UK Bradford, UK
-                    eeds, UK
-                  </span>
+                    Depot locations – Nottingham, UK <br/>Blackburn, UK <br/>Bradford, UK
+             </span>
                   <br />
                   <span>HQ – Shadwell, Leeds</span>
                 </div>

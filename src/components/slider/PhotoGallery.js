@@ -34,7 +34,7 @@ export default class PhotoGallery extends Component {
                 <div className="col-lg-8">
                   <div className="section-title mb-25">
                     <span className="sub-title mb-15">Photo Gallery</span>
-                    <h2>Follow Our Instagram</h2>
+                   
                   </div>
                 </div>
                 <div className="col-lg-4 text-lg-right">
@@ -79,17 +79,7 @@ export default class PhotoGallery extends Component {
             </div>
             <div className="gallery-item big-item wow fadeInUp delay-0-4s">
               <img src="assets/images/gellery/gallery2.jpg" alt="Gallery" />
-              {/* <div className="gallery-over">
-                <div className="content">
-                  <h4>Follow Our Instagram</h4>
-
-                </div>
-                <Link href="https://www.instagram.com/bettavegltd/?hl=en">
-                  <a className="details-btn">
-                    <i className="fas fa-arrow-right" />
-                  </a>
-                </Link>
-              </div> */}
+            
             </div>
             <div className="gallery-item wow fadeInUp delay-0-6s">
               <img src="assets/images/gellery/gallery3.jpg" alt="Gallery" />

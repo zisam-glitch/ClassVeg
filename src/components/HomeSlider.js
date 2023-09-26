@@ -108,9 +108,9 @@ export const HomeSlider1 = () => {
                 <div className="sub-title mb-20">Wholesale Service </div>
                 <h1>Fresh Fruit &amp; Vegetables </h1>
                 <h6>
-                  ClassVeg north west to North and Midlands of UK supply quality
-                  fresh wholesale fruit and veg to hotels, restaurants, schools
-                  and eating establishments throughout the North West.
+                  ClassVeg supply quality fresh wholesale fruit and veg to
+                  hotels, restaurants, schools and eating establishments
+                  throughout the north west to North and Midlands of UK.
                 </h6>
                 <div className="slider-btns mt-30">
                   <Link href="/about">
