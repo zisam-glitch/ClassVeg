@@ -9,13 +9,8 @@ const MobileMenu = () => {
   return (
     <ul className="navigation clearfix d-block d-lg-none mobile-header">
       <li className="dropdown">
-        <a>What We Offer</a>
-        <ul style={activeLi("home")}>
-          <Home />
-        </ul>
-        <div className="dropdown-btn" onClick={() => activeMenuSet("home")}>
-          <span className="fas fa-chevron-down" />
-        </div>
+        <a href="/what-we-offer" >What We Offer</a>
+        
       </li>
       <li className="dropdown">
         <a href="/about">About</a>

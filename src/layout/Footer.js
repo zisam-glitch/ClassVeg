@@ -55,9 +55,7 @@ const DefaultFooter = () => (
               </Link>
             </div>
             <p>
-              Sit amet consectetur adipiscing elit sed eiusmod tempor incididunt
-              ut labore et dolore magna aliqua. quis ipsum suspendisse ultrices
-              gravida.
+              Website Built By :<a href="https://www.growwithsayed.com/" target="_blank"> Grow With Sayed </a>
             </p>
             <div className="social-style-two pt-10">
               <Link href="/contact">
@@ -93,51 +91,38 @@ const DefaultFooter = () => (
                 </Link>
               </li>
               <li>
-                <Link href="/contact">Documentation</Link>
+                <Link href="/combined-policy">Combined Policy</Link>
               </li>
               <li>
-                <Link href="/services">
-                  <a>Services</a>
+                <Link href="/vacancies">
+                  <a>Vacancies</a>
                 </Link>
               </li>
               <li>
-                <Link href="/services">Elements</Link>
+                <Link href="/company-policy">Company Policy</Link>
               </li>
               <li>
-                <Link href="/portfolio-grid">
-                  <a>Our Projects</a>
+                <Link href="/contact">
+                  <a>Contact</a>
                 </Link>
               </li>
               <li>
-                <Link href="/shop-grid">
-                  <a>Best Products</a>
+                <Link href="/social-value-policy">
+                  <a>Social Value Policy</a>
                 </Link>
               </li>
               <li>
-                <Link href="/farmers">
-                  <a>Meet Farmers</a>
+                <Link href="/what-we-offer">
+                  <a>What We Offer</a>
                 </Link>
               </li>
               <li>
-                <Link href="/service-details">
-                  <a>Technology</a>
+                <Link href="/plastic-protection-and-preservation-policy">
+           
+          
+                    <a>Plastic Protection and Preservation Policy</a>
+                 
                 </Link>
-              </li>
-              <li>
-                <Link href="/blog-grid">
-                  <a>Latest News</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact">Contact Us</Link>
-              </li>
-              <li>
-                <Link href="/service-details">
-                  <a>Vegetables</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact">Setting &amp; Privacy</Link>
               </li>
             </ul>
           </div>
@@ -145,13 +130,12 @@ const DefaultFooter = () => (
         <div className="col-lg-4 col-md-6 order-md-3">
           <div className="footer-widget contact-widget">
             <h4 className="footer-title">Contact Us</h4>
-            <p>
-             
-            </p>
+            <p></p>
             <ul>
               <li>
                 <i className="fal fa-map-marker-alt" />
-                Classveg, Unit A14-A17 , New Smithfield Market, Manchester, M11 2WJ‎
+                Classveg, Unit A14-A17 , New Smithfield Market, Manchester, M11
+                2WJ
               </li>
               <li>
                 <i className="far fa-envelope" />
@@ -168,16 +152,9 @@ const DefaultFooter = () => (
       <div className="copyright-area pt-25 pb-10">
         <p>Copyright © 2023 Classveg. All Rights Reserved.</p>
         <ul className="footer-menu">
+          
           <li>
-            <Link href="/contact">Setting &amp; Privacy</Link>
-          </li>
-          <li>
-            <Link href="/faqs">
-              <a>Faqs</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact">Payments</Link>
+            <Link href="/contact">Contact Us</Link>
           </li>
         </ul>
         {/* Scroll Top Button */}

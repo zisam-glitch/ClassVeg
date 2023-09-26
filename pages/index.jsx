@@ -41,7 +41,7 @@ const Index = () => {
                 <img src="assets/images/category/icon1.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Fresh Fruit & Veg</Link>
+                <Link href="/what-we-offer">Fresh Fruit & Veg</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -50,7 +50,7 @@ const Index = () => {
                 <img src="assets/images/category/icon2.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Dairy Products</Link>
+                <Link href="/what-we-offer">Dairy Products</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -59,7 +59,7 @@ const Index = () => {
                 <img src="assets/images/category/icon3.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Fresh Produce</Link>
+                <Link href="/what-we-offer">Fresh Produce</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -68,7 +68,7 @@ const Index = () => {
                 <img src="assets/images/category/icon4.png" alt="Icon" />
               </div>
               <h5>
-                <Link href="/services">Dry Goods</Link>
+                <Link href="/what-we-offer">Dry Goods</Link>
               </h5>
               <img src="assets/images/category/arrow.png" alt="Arrow" />
             </div>
@@ -241,7 +241,7 @@ const Index = () => {
                         seasonal products & limited availability produce
                         available on a day to day basis.
                       </p>
-                      <Link href="/shop-grid">
+                      <Link href="/contact">
                         <a className="theme-btn style-two">
                           Get In Touch{" "}
                           <i className="fas fa-angle-double-right" />
@@ -260,7 +260,7 @@ const Index = () => {
                         Each month we offer a new selection of products at a
                         discounted price.
                       </p>
-                      <Link href="/shop-grid">
+                      <Link href="/contact">
                         <a className="theme-btn style-two">
                           Get In Touch
                           <i className="fas fa-angle-double-right" />
@@ -270,82 +270,7 @@ const Index = () => {
                     <div className="image"></div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-md-6">
-                  <div className="offer-banner-item color-three wow fadeInUp delay-0-6s">
-                    <div className="content">
-                      <span className="sub-title">Local</span>
-                      <h4>Dairy Products</h4>
-                      <p>
-                        Check out the extensive range of Dairy products we can
-                        supply.
-                      </p>
-                      <Link href="/shop-grid">
-                        <a className="theme-btn style-two">
-                          View Products{" "}
-                          <i className="fas fa-angle-double-right" />
-                        </a>
-                      </Link>
-                    </div>
-                    <div className="image">
-                      {/* <img
-                        src="assets/images/offers/offer-banner3.png"
-                        alt="Offer Banner"
-                      /> */}
-                    </div>
-                    {/* <img
-                      className="offer-bg"
-                      src="assets/images/offers/offer-baner-bg3.png"
-                      alt="Offer BG"
-                    /> */}
-                  </div>
-                </div>
-                <div className="col-xl-4 col-md-6">
-                  <div className="offer-banner-item color-four wow fadeInUp delay-0-6s">
-                    <div className="content">
-                      <span className="sub-title">Range Of</span>
-                      <h4>Dried Goods</h4>
-                      <p>
-                        Tinned goods, Breads, Pastas, Condiments, Sauces & more.
-                      </p>
-                      <Link href="/shop-grid">
-                        <a className="theme-btn style-two">
-                          View Products{" "}
-                          <i className="fas fa-angle-double-right" />
-                        </a>
-                      </Link>
-                    </div>
-                    <div className="image">
-                      {/* <img
-                        src="assets/images/offers/offer-banner3.png"
-                        alt="Offer Banner"
-                      /> */}
-                    </div>
-                    {/* <img
-                      className="offer-bg"
-                      src="assets/images/offers/offer-baner-bg3.png"
-                      alt="Offer BG"
-                    /> */}
-                  </div>
-                </div>
-                <div className="col-xl-4 col-md-6">
-                  <div className="offer-banner-item color-five wow fadeInUp delay-0-6s">
-                    <div className="content">
-                      <span className="sub-title">Quality</span>
-                      <h4>Prepared Produce</h4>
-                      <p>
-                        Save time & money in your kitchen by letting us prepare
-                        all your produce.
-                      </p>
-                      <Link href="/shop-grid">
-                        <a className="theme-btn style-two">
-                          View Products{" "}
-                          <i className="fas fa-angle-double-right" />
-                        </a>
-                      </Link>
-                    </div>
-                    <div className="image"></div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </section>
@@ -619,14 +544,14 @@ const Index = () => {
                   offering the best products and services anywhere.
                 </p>
                 <div className="slider-btns mt-30">
-                  <Link href="/about">
+                  <Link href="/contact">
                     <a className="theme-btn style-two pe-20">
-                      Learn More <i className="fas fa-angle-double-right" />
+                    Get In Touch <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
-                  <Link href="/about">
+                  <Link href="/what-we-offer">
                     <a className="theme-btn style-three">
-                      Learn More <i className="fas fa-angle-double-right" />
+                    View Our Products <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>

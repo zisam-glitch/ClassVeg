@@ -285,11 +285,11 @@ const Header1 = () => (
             <button className="user">
               <i className="far fa-user-circle" />
             </button> */}
-            <Link href="/contact">
-              <a className="theme-btn">
+            
+              <a href="callto:01612318244" className="theme-btn">
               Call Us <i className="fa fa-phone" />
               </a>
-            </Link>
+            
             {/* menu sidbar */}
             <div className="menu-sidebar" onClick={() => sidebarToggle()}>
               <button>
