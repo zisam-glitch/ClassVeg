@@ -59,7 +59,7 @@ const CustomerReviews = () => {
           </div>
           <div className="feedback-item">
             <p>
-              Bettaveg are the perfect partner for our business with constantly
+              Classveg are the perfect partner for our business with constantly
               changing needs. An amazing family team who have gone above and
               beyond to make sure they work in partnership with us. Ready to
               help supply all our crazy requests and always on the end of the
@@ -87,7 +87,7 @@ const CustomerReviews = () => {
           <div className="feedback-item">
             <p>
               It’s important to us that we have personal relationships with our
-              suppliers, the people at Bettaveg are great to work with, and they
+              suppliers, the people at Classveg are great to work with, and they
               constantly go above and beyond to ensure the produce they deliver
               is exactly what we ask for
             </p>
@@ -111,7 +111,7 @@ const CustomerReviews = () => {
           </div>
           <div className="feedback-item">
             <p>
-              I’ve used BettaVeg for over 10 years and have always found them
+              I’ve used Classveg for over 10 years and have always found them
               extremely reliable, well priced and very helpful sourcing unusual
               produce for us on many occasions.Their communication is second to
               none and drivers are the best! (A bacon sarnie for them in the
@@ -137,10 +137,10 @@ const CustomerReviews = () => {
           </div>
           <div className="feedback-item">
             <p>
-              I have been using Bettaveg for the past 4 years. The produce is
+              I have been using Classveg for the past 4 years. The produce is
               second to none, with competitive prices. The office team are
               great, very helpful and Paul our delivery driver is excellent, he
-              knows exactly what we want. I would highly recommend Bettaveg, one
+              knows exactly what we want. I would highly recommend Classveg, one
               of the best suppliers I have ever used.
             </p>
             <div className="feedback-author">

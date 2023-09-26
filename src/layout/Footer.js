@@ -55,7 +55,11 @@ const DefaultFooter = () => (
               </Link>
             </div>
             <p>
-              Website Built By :<a href="https://www.growwithsayed.com/" target="_blank"> Grow With Sayed </a>
+              Website Built By :
+              <a href="https://www.growwithsayed.com/" target="_blank">
+                {" "}
+                Grow With Sayed{" "}
+              </a>
             </p>
             <div className="social-style-two pt-10">
               <Link href="/contact">
@@ -91,19 +95,11 @@ const DefaultFooter = () => (
                 </Link>
               </li>
               <li>
-                <Link href="/combined-policy">Combined Policy</Link>
+                <Link href="/company-policy">Company Policy</Link>
               </li>
               <li>
                 <Link href="/vacancies">
                   <a>Vacancies</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/company-policy">Company Policy</Link>
-              </li>
-              <li>
-                <Link href="/contact">
-                  <a>Contact</a>
                 </Link>
               </li>
               <li>
@@ -112,16 +108,33 @@ const DefaultFooter = () => (
                 </Link>
               </li>
               <li>
+                <Link href="/contact">
+                  <a>Contact</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/carbon-reduction-plan">
+                  <a>Carbon Reduction Plan</a>
+                </Link>
+              </li>
+              <li>
                 <Link href="/what-we-offer">
-                  <a>What We Offer</a>
+                  <a>Fruit & Veg</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/modern-slavery-act">
+                  <a>Modern Slavery Act</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/standards-and-legislations">
+                  Standards and Legislations
                 </Link>
               </li>
               <li>
                 <Link href="/plastic-protection-and-preservation-policy">
-           
-          
-                    <a>Plastic Protection and Preservation Policy</a>
-                 
+                  <a>Plastic Protection and Preservation Policy</a>
                 </Link>
               </li>
             </ul>
@@ -134,8 +147,7 @@ const DefaultFooter = () => (
             <ul>
               <li>
                 <i className="fal fa-map-marker-alt" />
-                Classveg, Unit A14-A17 , New Smithfield Market, Manchester, M11
-                2WJ
+                HeadQuarters – Shadwell, LEEDS
               </li>
               <li>
                 <i className="far fa-envelope" />
@@ -143,7 +155,7 @@ const DefaultFooter = () => (
               </li>
               <li>
                 <i className="far fa-phone" />
-                <a href="calto:01612318244">0161 231 8244</a>
+                <a href="calto:01133228534">0113 322 8534</a>
               </li>
             </ul>
           </div>
@@ -152,7 +164,6 @@ const DefaultFooter = () => (
       <div className="copyright-area pt-25 pb-10">
         <p>Copyright © 2023 Classveg. All Rights Reserved.</p>
         <ul className="footer-menu">
-          
           <li>
             <Link href="/contact">Contact Us</Link>
           </li>

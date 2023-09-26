@@ -8,7 +8,7 @@ const Policy = () => {
         <h4>Plastic Protection and Preservation Policy</h4>
         <>
           <p>
-            Evergreen Wholesalers - Plastic Protection and Preservation Policy
+            Classveg - Plastic Protection and Preservation Policy
           </p>
           <p> </p>
           <ol>
@@ -17,7 +17,7 @@ const Policy = () => {
           <p>
             In alignment with the Government’s 25 Year Environment Plan and the
             ambitions set out in "Our Waste, Our Resources: A Strategy for
-            England", Evergreen Wholesalers is committed to taking proactive
+            England", Classveg is committed to taking proactive
             measures to protect and preserve the environment. This policy
             outlines our approach to plastic use, especially within our Fruit
             and Vegetable Scheme, and our commitment to sustainable practices.
@@ -106,7 +106,7 @@ const Policy = () => {
             <li>Conclusion</li>
           </ol>
           <p>
-            Evergreen Wholesalers is dedicated to playing an active role in
+            Classveg is dedicated to playing an active role in
             moving towards a circular economy, minimizing waste, and promoting
             resource efficiency. We believe that by taking these steps, we can
             make a significant contribution to the preservation of our

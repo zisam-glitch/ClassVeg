@@ -15,7 +15,7 @@ const Policy = () => {
                 </li>
               </ol>
               <p>
-                At Evergreen Wholesalers, we are committed to ensuring equal
+                At Classveg, we are committed to ensuring equal
                 opportunities for all and to preventing any form of
                 discrimination, harassment, or victimization. Alongside this, we
                 recognize the importance of preventing modern slavery within our
@@ -172,7 +172,7 @@ const Policy = () => {
                 <li>
                   <p>
                     <strong>
-                      Evergreen Wholesalers - Fighting Climate Change Policy
+                      Classveg - Fighting Climate Change Policy
                     </strong>
                   </p>
                   <ol>
@@ -181,7 +181,7 @@ const Policy = () => {
                     </li>
                   </ol>
                   <p>
-                    At Evergreen Wholesalers, we recognize the urgent need to
+                    At Classveg, we recognize the urgent need to
                     address the global challenge of climate change. We are
                     committed to implementing sustainable practices that reduce
                     our carbon footprint, promote recycling, and move towards a
@@ -219,7 +219,7 @@ const Policy = () => {
                   </ol>
                   <ul>
                     <li>
-                      <strong>3.1</strong> Evergreen Wholesalers is dedicated to
+                      <strong>3.1</strong> Classveg is dedicated to
                       reducing our carbon emissions. We have implemented
                       measures to control and reduce emissions directly
                       associated with our operations.
@@ -262,7 +262,7 @@ const Policy = () => {
                   <ul>
                     <li>
                       <strong>4.1</strong> We believe that every member of the
-                      Evergreen Wholesalers family has a role to play in
+                      Classveg family has a role to play in
                       fighting climate change. We will provide training and
                       resources to our employees to ensure they understand and
                       can contribute to our sustainability goals.

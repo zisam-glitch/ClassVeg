@@ -65,7 +65,7 @@ export default class PhotoGallery extends Component {
           >
             <div className="gallery-item wow fadeInUp delay-0-2s">
               <img src="assets/images/gellery/gallery1.jpg" alt="Gallery" />
-              <div className="gallery-over">
+              {/* <div className="gallery-over">
                 <div className="content">
                   <h4>Follow Our Instagram</h4>
                   
@@ -75,11 +75,11 @@ export default class PhotoGallery extends Component {
                     <i className="fas fa-arrow-right" />
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div className="gallery-item big-item wow fadeInUp delay-0-4s">
               <img src="assets/images/gellery/gallery2.jpg" alt="Gallery" />
-              <div className="gallery-over">
+              {/* <div className="gallery-over">
                 <div className="content">
                   <h4>Follow Our Instagram</h4>
 
@@ -89,11 +89,11 @@ export default class PhotoGallery extends Component {
                     <i className="fas fa-arrow-right" />
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div className="gallery-item wow fadeInUp delay-0-6s">
               <img src="assets/images/gellery/gallery3.jpg" alt="Gallery" />
-              <div className="gallery-over">
+              {/* <div className="gallery-over">
                 <div className="content">
                   <h4>Follow Our Instagram</h4>
 
@@ -103,11 +103,11 @@ export default class PhotoGallery extends Component {
                     <i className="fas fa-arrow-right" />
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
             <div className="gallery-item wow fadeInUp delay-0-8s">
               <img src="assets/images/gellery/gallery4.jpg" alt="Gallery" />
-              <div className="gallery-over">
+              {/* <div className="gallery-over">
                 <div className="content">
                   <h4>Follow Our Instagram</h4>
                 </div>
@@ -116,7 +116,7 @@ export default class PhotoGallery extends Component {
                     <i className="fas fa-arrow-right" />
                   </a>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </Slider>
         </div>

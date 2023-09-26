@@ -4,16 +4,16 @@ const Policy = () => {
   return (
     <Layout header={1}>
       <div className="cont" >
-        <h2 className="center p-60">Combined Policy</h2>
+        <h2 className="center p-60">Standards and Legislations</h2>
         <details>
-          <summary>Evergreen Wholesalers Overview</summary>
+          <summary>Classveg Overview</summary>
           <p>
             <strong> </strong>
           </p>
           <ol>
             <li>
               <strong> Executive Summary:</strong>
-              <br /> Evergreen Wholesalers is not just a food distribution
+              <br /> Classveg is not just a food distribution
               company; we are a partner in promoting health and well-being. With
               our proven track record, we are uniquely positioned to support the
               SFVS initiative, ensuring that every child receives the freshest
@@ -24,7 +24,7 @@ const Policy = () => {
           <ol start={2}>
             <li>
               <strong> Company Profile:</strong>
-              <br /> For over 10 Years, Evergreen Wholesalers has been at the
+              <br /> For over 10 Years, Classveg has been at the
               forefront of food distribution, championing quality, freshness,
               and reliability. Our dedicated team, has successfully managed
               complex distribution projects, ensuring timely and efficient
@@ -113,7 +113,7 @@ const Policy = () => {
           <ol start={10}>
             <li>
               <strong> Conclusion:</strong>
-              <br /> Choosing Evergreen Wholesalers is choosing a dedicated
+              <br /> Choosing Classveg is choosing a dedicated
               partner, committed to the health and well-being of England's
               children. We are excited about the possibility of this
               collaboration and are ready to embark on this journey with you.
@@ -494,539 +494,8 @@ const Policy = () => {
             <p> </p>
           </>
         </details>
-        <details>
-          <summary>Carbon Reduction Plan </summary>
-          <p>Supplier name: CLASS VEG</p>
-          <p>
-            Publication date: 1<sup>ST</sup> JANUARY 2023
-          </p>
-          <p>
-            <strong>Commitment to achieving Net Zero</strong>
-          </p>
-          <p>ClassVeg is committed to achieving Net Zero emissions by 2030</p>
-          <p> </p>
-          <p>
-            <strong>Baseline Emissions Footprint</strong>
-          </p>
-          <p>
-            Baseline emissions are a record of the greenhouse gases that have
-            been produced in the past and were produced prior to the
-            introduction of any strategies to reduce emissions. Baseline
-            emissions are the reference point against which emissions reduction
-            can be measured.
-          </p>
-          <p> </p>
-          <p>
-            <strong>Historic Deviations:</strong>
-          </p>
-          <p>
-            In our historical baseline data, there were certain deviations from
-            the current requirements. Notably, our past reports did not
-            encompass Scope 3 emissions. The omission of Scope 3 emissions from
-            our previous reports was due to the lack of comprehensive data
-            collection mechanisms for indirect emissions sources, such as
-            employee commuting and business travel. Recognizing the increasing
-            importance of capturing the full spectrum of our carbon footprint,
-            we have now incorporated Scope 3 emissions into our reporting
-            framework.
-          </p>
-          <p> </p>
-          <p>
-            <strong>No Previous Reporting:</strong>
-          </p>
-          <p>
-            For many years, our organization operated without a formal
-            greenhouse gas emissions assessment or reporting structure. This gap
-            was primarily due to a lack of internal expertise and resources
-            dedicated to environmental sustainability. However, with the growing
-            global emphasis on climate action and our own commitment to
-            corporate responsibility, we initiated a comprehensive emissions
-            audit in 2020. This year now serves as our baseline, providing a
-            clear picture of our emissions footprint and allowing us to set
-            informed reduction targets.
-          </p>
-          <p> </p>
-          <p>
-            <strong>Organizational Changes:</strong>
-          </p>
-          <p>
-            In 2022, our organization underwent significant restructuring,
-            including the acquisition of a new subsidiary and the divestment of
-            certain non-core operations. This substantial change in our
-            operational landscape necessitated a re-evaluation of our emissions
-            baseline. While our 2020 data provides valuable insights, the
-            organizational changes mean that some of the emissions sources from
-            that year are no longer relevant, while new sources have been
-            introduced. As a result, we are in the process of establishing a new
-            baseline that accurately reflects our current organizational
-            structure and operations.
-          </p>
-          <p> </p>
-          <p>
-            <strong>Moving Forward:</strong>
-          </p>
-          <p>
-            We are committed to continuous improvement in our emissions
-            reporting and reduction efforts. Our team is actively exploring
-            advanced data collection tools, engaging with sustainability
-            consultants, and fostering a company-wide culture of environmental
-            responsibility. We believe that with a clear understanding of our
-            baseline emissions and the factors influencing them, we can make
-            meaningful strides towards a more sustainable future.
-          </p>
-          <p> </p>
-          <p> </p>
-          <p> </p>
-          <p> </p>
-          <p> </p>
-          <p> </p>
-          <p> </p>
-          <p> </p>
-          <table width="630">
-            <tbody>
-              <tr>
-                <td colspan="2" width="630">
-                  <p>
-                    <strong>Baseline year emissions: 2020</strong>
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td width="142">
-                  <p>
-                    <strong>EMISSIONS</strong>
-                  </p>
-                </td>
-                <td width="488">
-                  <p>
-                    <strong>
-                      TOTAL (tCO<sub>2</sub>e)
-                    </strong>
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td width="142">
-                  <p>
-                    <strong>Scope 1</strong>
-                  </p>
-                </td>
-                <td width="488">
-                  <p>Scope 1 Emissions (Direct Emissions):</p>
-                  <p> </p>
-                  <p>Fuel Combustion: 5,000 metric tons CO2e</p>
-                  <p>Company Vehicles: 2,000 metric tons CO2e</p>
-                  <p>Refrigerant Losses: 500 metric tons CO2e</p>
-                  <p>Total Scope 1 Emissions: 7,500 metric tons CO2e</p>
-                </td>
-              </tr>
-              <tr>
-                <td width="142">
-                  <p>
-                    <strong>Scope 2</strong>
-                  </p>
-                </td>
-                <td width="488">
-                  <p>Scope 2 Emissions (Energy Indirect Emissions):</p>
-                  <p> </p>
-                  <p>Purchased Electricity: 4,000 metric tons CO2e</p>
-                  <p>Purchased Heat &amp; Steam: 1,000 metric tons CO2e</p>
-                  <p>Total Scope 2 Emissions: 5,000 metric tons CO2e</p>
-                  <p> </p>
-                </td>
-              </tr>
-              <tr>
-                <td width="142">
-                  <p>
-                    <strong>Scope 3</strong>
-                  </p>
-                  <p>
-                    <strong>(Included Sources)</strong>
-                  </p>
-                </td>
-                <td width="488">
-                  <p>Scope 3 Emissions (Other Indirect Emissions):</p>
-                  <p> </p>
-                  <p>Business Travel: 1,000 metric tons CO2e</p>
-                  <p>Employee Commuting: 1,500 metric tons CO2e</p>
-                  <p>Waste Generated: 500 metric tons CO2e</p>
-                  <p>Total Scope 3 Emissions: 3,000 metric tons CO2e</p>
-                  <p>
-                    Total Baseline Emissions for 2020: 15,500 metric tons CO2e
-                  </p>
-                  <p> </p>
-                </td>
-              </tr>
-              <tr>
-                <td width="142">
-                  <p>
-                    <strong>Total Emissions</strong>
-                  </p>
-                </td>
-                <td width="488">
-                  <p>28,000</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p> </p>
-          <p>
-            <strong>Current Emissions Reporting</strong>
-          </p>
-          <p> </p>
-          <p>
-            We are in the process of gathering data and will provide a
-            comprehensive report at the end of this period.
-          </p>
-          <p> </p>
-          <p>
-            <strong>Emissions reduction targets</strong>
-          </p>
-          <p>
-            In order to continue our progress to achieving Net Zero, we have
-            adopted the following carbon reduction targets.
-          </p>
-          <p> </p>
-          <p> </p>
-          <p>Short-Term Targets (2024):</p>
-          <p> </p>
-          <p>
-            Overall Emissions Reduction: Aim to achieve a 15% reduction in total
-            greenhouse gas emissions compared to our 2020 baseline.
-          </p>
-          <p>
-            <strong>Scope 1 Emissions:</strong> Target a 10% reduction in direct
-            emissions, primarily by transitioning 25% of our company vehicle
-            fleet to electric or hybrid models and improving the energy
-            efficiency of our facilities.
-          </p>
-          <p>
-            <strong>Scope 2 Emissions:</strong> Strive for a 20% reduction by
-            transitioning to renewable energy sources for at least 50% of our
-            electricity consumption.
-          </p>
-          <p>
-            <strong>Scope 3 Emissions:</strong> Aim to reduce business
-            travel-related emissions by 15% through the promotion of virtual
-            meetings and sustainable travel policies.
-          </p>
-          <p> </p>
-          <p>
-            <strong>Medium-Term Targets (2027):</strong>
-          </p>
-          <p> </p>
-          <p>
-            Overall Emissions Reduction: Target a 30% reduction in total
-            greenhouse gas emissions compared to our 2020 baseline.
-          </p>
-          <p>
-            Scope 1 Emissions: Plan to achieve a 25% reduction by further
-            transitioning our vehicle fleet and implementing advanced
-            energy-saving technologies in our operations.
-          </p>
-          <p>
-            Scope 2 Emissions: Aim for a 35% reduction by sourcing 75% of our
-            electricity from renewable sources.
-          </p>
-          <p>
-            Scope 3 Emissions: Target a 25% reduction by expanding our
-            sustainable procurement practices and further promoting remote work
-            options.
-          </p>
-          <p> </p>
-          <p>
-            <strong>Long-Term Targets (2030):</strong>
-          </p>
-          <p> </p>
-          <p>
-            Net-Zero Emissions: Commit to achieving net-zero emissions across
-            all scopes. This will involve a combination of deep emissions
-            reductions, renewable energy sourcing, and carbon offset
-            initiatives.
-          </p>
-          <p>Additional Initiatives:</p>
-          <p> </p>
-          <p>
-            Carbon Offsetting: We have invested in reforestation projects that
-            will offset 5,000 metric tons CO2e annually.
-          </p>
-          <p>
-            Employee Engagement: Launching an internal campaign to educate
-            employees about sustainability and encourage eco-friendly practices
-            both at work and at home.
-          </p>
-          <p>
-            Supply Chain: Engaging with our suppliers to promote sustainability
-            and set emissions reduction targets within our supply chain.
-          </p>
-          <p> </p>
-          <p> </p>
-          <p> </p>
-          <p>
-            <strong>Carbon Reduction Projects</strong>
-          </p>
-          <p> </p>
-          <p>Completed Carbon Reduction Initiatives</p>
-          <p>
-            The following environmental management measures and projects have
-            been completed or implemented since the 2020 baseline.
-          </p>
-          <p> </p>
-          <ul>
-            <li>
-              <strong>ISO 14001 Certification:</strong>
-              <ul>
-                <li>
-                  Achieved ISO 14001 certification, emphasizing our dedication
-                  to sustainable environmental management. This has guided our
-                  approach to sustainable farming, packaging, and distribution.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Cold Storage Efficiency:</strong>
-              <ul>
-                <li>
-                  Upgraded our cold storage facilities with energy-efficient
-                  refrigeration systems, reducing energy consumption by 25% and
-                  ensuring our produce remains fresh with minimal environmental
-                  impact.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Transition to Organic Farming:</strong>
-              <ul>
-                <li>
-                  Converted 40% of our farmland to organic farming practices,
-                  eliminating the use of synthetic pesticides and fertilizers,
-                  thereby reducing our carbon footprint and soil degradation.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>LED/PIR Lighting Controls in Warehouses:</strong>
-              <ul>
-                <li>
-                  Retrofitted our storage warehouses with energy-efficient LED
-                  lighting and installed PIR controls, resulting in a 30%
-                  reduction in energy consumption.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Local Sourcing and Distribution:</strong>
-              <ul>
-                <li>
-                  Prioritized sourcing produce from local farmers, reducing the
-                  average transportation distance by 50% and subsequently
-                  lowering emissions from transportation.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Electrification of Delivery Fleet:</strong>
-              <ul>
-                <li>
-                  Transitioned 20% of our delivery vehicles to electric models,
-                  significantly reducing our Scope 1 emissions and setting the
-                  stage for a larger transition in the coming years.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Compostable Packaging:</strong>
-              <ul>
-                <li>
-                  Introduced compostable packaging for select products, reducing
-                  our reliance on single-use plastics and offering customers a
-                  sustainable packaging alternative.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Water Conservation in Farming:</strong>
-              <ul>
-                <li>
-                  Implemented drip irrigation systems on our farms, reducing
-                  water consumption by 40% and ensuring efficient water use for
-                  crop cultivation.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Waste Reduction and Composting:</strong>
-              <ul>
-                <li>
-                  Established a composting system for organic waste, turning
-                  unsold or damaged produce into nutrient-rich compost for our
-                  farms.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>Renewable Energy Transition:</strong>
-              <ul>
-                <li>
-                  Installed solar panels on our warehouse roofs, offsetting 20%
-                  of our energy consumption with clean, renewable energy.
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <p>
-            <strong> </strong>
-          </p>
-          <p> </p>
-          <p>
-            <strong>Declaration and Sign Off</strong>
-          </p>
-          <p>
-            This Carbon Reduction Plan has been completed in accordance with PPN
-            06/21 and associated guidance and reporting standard for Carbon
-            Reduction Plans.
-          </p>
-          <p>
-            Emissions have been reported and recorded in accordance with the
-            published reporting standard for Carbon Reduction Plans and the GHG
-            Reporting Protocol corporate standard and uses the appropriate{" "}
-            <a href="https://www.gov.uk/government/collections/government-conversion-factors-for-company-reporting">
-              Government emission conversion factors for greenhouse gas company
-              reporting
-            </a>
-            .
-          </p>
-          <p> </p>
-          <p>
-            Scope 1 and Scope 2 emissions have been reported in accordance with
-            SECR requirements, and the required subset of Scope 3 emissions have
-            been reported in accordance with the published reporting standard
-            for Carbon Reduction Plans and the Corporate Value Chain (Scope 3)
-            Standard
-          </p>
-          <p> </p>
-          <p>
-            This Carbon Reduction Plan has been reviewed and signed off by the
-            board of directors (or equivalent management body).
-          </p>
-          <p> </p>
-          <p>Signed on behalf of the Supplier:</p>
-          <p> </p>
-          <p>
-            &hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;.
-          </p>
-          <p>Name: Dr Hassan Bhojani</p>
-          <p> </p>
-          <p>Position: Director</p>
-          <p> </p>
-          <p>Date: 25/09/2023</p>
-        </details>
-        <details>
-          <summary>Section 54 of the Modern Slavery Act:</summary>
-          <>
-            <p>
-              <strong>Modern Slavery Act Transparency Statement</strong>
-            </p>
-            <p> </p>
-            <p>
-              At Evergreen Wholesalers we are committed to ensuring that our
-              business and supply chains are free from any form of modern
-              slavery and human trafficking. We recognize the importance of the
-              Modern Slavery Act 2015 and are dedicated to upholding and
-              promoting the principles set out within it.
-            </p>
-            <p> </p>
-            <p>
-              <strong>Our Business and Supply Chains</strong>
-              <br />{" "}
-            </p>
-            <p>
-              Evergreen Wholesalers has been a trusted name in the food
-              distribution industry for over 10 years. Headquartered in
-              Blackburn, Lancashire, we specialize in the sourcing, storage, and
-              distribution of fresh produce to a diverse range of clients,
-              including retailers, restaurants, and educational institutions.
-            </p>
-            <p> </p>
-            <p>
-              <strong>Operations</strong>:<br /> Our operations span across
-              United Kingdom, with state-of-the-art storage facilities equipped
-              with the latest technology to ensure optimal freshness. We have a
-              dedicated team that oversees the entire process, from sourcing to
-              delivery, ensuring that our clients receive the best quality
-              products.
-            </p>
-            <p> </p>
-            <p>
-              <strong>Supply Chains</strong>:<br /> Our supply chain is a global
-              network, sourcing fresh produce from trusted farmers and suppliers
-              in UK and Europe. We have built long-standing relationships with
-              our suppliers, ensuring that the produce we source meets our
-              stringent quality and ethical standards. Our supply chain
-              processes are transparent, with regular audits and checks to
-              ensure compliance with all relevant regulations and standards.
-            </p>
-            <p> </p>
-            <p> </p>
-            <p> </p>
-            <p>
-              <strong>Policies and Procedures</strong>
-              <br /> We have implemented robust policies and procedures to
-              ensure that modern slavery and human trafficking do not occur
-              within our business or supply chains. These policies are regularly
-              reviewed and updated to ensure their effectiveness and relevance.
-            </p>
-            <p> </p>
-            <p>
-              <strong>Due Diligence and Risk Assessment</strong>
-              <br /> We conduct thorough due diligence on our suppliers and
-              partners to ensure they share our commitment to eradicating modern
-              slavery. Our risk assessment processes are designed to identify,
-              monitor, and mitigate any potential risks related to modern
-              slavery within our operations and supply chains.
-            </p>
-            <p> </p>
-            <p>
-              <strong>Training and Awareness</strong>
-              <br /> All our employees receive training on the Modern Slavery
-              Act and our related policies. This ensures that our team is
-              well-equipped to identify potential issues and take appropriate
-              action when necessary.
-            </p>
-            <p> </p>
-            <p>
-              <strong>Reporting</strong>
-              <br /> We encourage a culture of openness and transparency.
-              Employees, suppliers, and other stakeholders are encouraged to
-              report any concerns related to potential breaches of our policies
-              or the Modern Slavery Act. All reports are treated with the utmost
-              confidentiality and seriousness.
-            </p>
-            <p> </p>
-            <p>
-              <strong>Continuous Improvement</strong>
-              <br /> We are committed to continuously improving our practices to
-              combat modern slavery and human trafficking. We regularly review
-              and update our policies, procedures, and training programs to
-              ensure they remain effective.
-            </p>
-            <p> </p>
-            <p>
-              This statement is made in accordance with Section 54(1) of the
-              Modern Slavery Act 2015 and has been approved by Evergreen
-              Wholesaler's Board of Directors on 1<sup>st</sup> January 2023
-            </p>
-            <p> </p>
-            <p>Signed,</p>
-            <p> </p>
-            <p>Dr Hassan Bhojani</p>
-            <p>Managing Director</p>
-            <p>Evergreen Wholesalers</p>
-            <p>
-              1<sup>st</sup> January 2023
-            </p>
-          </>
-        </details>
+        
+        
         <details>
           <summary>Standards And Legislation</summary>
           <>
@@ -1080,12 +549,12 @@ const Policy = () => {
           </>
         </details>
         <details>
-          <summary>HACCP Plan for Evergreen Wholesalers</summary>
+          <summary>HACCP Plan for Classveg</summary>
           <>
             <ol>
               <li>
                 <strong> Introduction:</strong>
-                <br /> Evergreen Wholesalers is dedicated to ensuring the safety
+                <br /> Classveg is dedicated to ensuring the safety
                 and quality of our fresh produce. This HACCP plan outlines our
                 systematic approach to identifying, evaluating, and controlling
                 potential food safety hazards.
@@ -1320,7 +789,7 @@ const Policy = () => {
             <p> </p>
             <p>
               <strong>8. Conclusion:</strong>
-              <br /> Evergreen Wholesalers is committed to ensuring the safety
+              <br /> Classveg is committed to ensuring the safety
               of our products and compliance with all relevant legislation,
               including the Food Safety Act 1990 and its amendments.
               <br /> <br />{" "}
@@ -1334,7 +803,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Compliance with the UK Food Safety (General Food Hygiene)
                 Regulations 1995
               </strong>
@@ -1407,7 +876,7 @@ const Policy = () => {
             <p> </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -1451,7 +920,7 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Evergreen Wholesalers is committed to ensuring the safety
+                <br /> Classveg is committed to ensuring the safety
                 of our products and compliance with all relevant legislation,
                 including the Food Safety (General Food Hygiene) Regulations
                 1995.
@@ -1468,7 +937,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Compliance with Regulation (EC) No. 178/2002
               </strong>
             </p>
@@ -1529,14 +998,14 @@ const Policy = () => {
               </li>
               <li>
                 Responsibility: The food industry is primarily responsible for
-                food safety, and Evergreen Wholesalers takes this responsibility
+                food safety, and Classveg takes this responsibility
                 seriously.
               </li>
             </ul>
             <p> </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -1583,7 +1052,7 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Evergreen Wholesalers is committed to ensuring the safety
+                <br /> Classveg is committed to ensuring the safety
                 of our products and compliance with all relevant EU legislation,
                 including Regulation (EC) No. 178/2002.
               </li>
@@ -1597,7 +1066,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Compliance with Regulation (EC) No. 852/2004 on the
                 Hygiene of Foodstuffs
               </strong>
@@ -1661,7 +1130,7 @@ const Policy = () => {
             <p> </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -1707,7 +1176,7 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Evergreen Wholesalers is committed to ensuring the
+                <br /> Classveg is committed to ensuring the
                 hygiene of our products and compliance with all relevant EU
                 legislation, including Regulation (EC) No. 852/2004.
               </li>
@@ -1722,7 +1191,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Compliance with Regulation (EC) No. 853/2004 on Specific
                 Hygiene Rules for the Hygiene of Foodstuffs
               </strong>
@@ -1787,7 +1256,7 @@ const Policy = () => {
             <p> </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -1835,7 +1304,7 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Evergreen Wholesalers is committed to ensuring the
+                <br /> Classveg is committed to ensuring the
                 hygiene of our animal products and compliance with all relevant
                 EU legislation, including Regulation (EC) No. 853/2004.
               </li>
@@ -1850,7 +1319,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Compliance with Regulation (EC) No. 2073/2005 on
                 Microbiological Criteria for Foodstuffs
               </strong>
@@ -1916,7 +1385,7 @@ const Policy = () => {
             <p> </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -1970,7 +1439,7 @@ const Policy = () => {
                   Conclusion:
                   <br />{" "}
                 </strong>
-                Evergreen Wholesalers is committed to ensuring the
+                Classveg is committed to ensuring the
                 microbiological safety of our products and compliance with all
                 relevant EU legislation, including Regulation (EC) No.
                 2073/2005.
@@ -1983,7 +1452,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Guidance on Compliance with the General Food Regulations
                 2004
               </strong>
@@ -1993,7 +1462,7 @@ const Policy = () => {
               <li>
                 <strong> Introduction:</strong>
                 <br /> This guidance document outlines the measures taken by
-                Evergreen Wholesalers to ensure compliance with the General Food
+                Classveg to ensure compliance with the General Food
                 Regulations 2004, which enforces the provisions of the European
                 Regulation (EC) No. 178/2002 within the UK.
               </li>
@@ -2051,7 +1520,7 @@ const Policy = () => {
             <p> </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -2098,7 +1567,7 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Evergreen Wholesalers is committed to ensuring the safety
+                <br /> Classveg is committed to ensuring the safety
                 of our products and compliance with all relevant UK legislation,
                 including the General Food Regulations 2004.
               </li>
@@ -2113,7 +1582,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Guidance on Compliance with the Food Hygiene Regulations
                 2006 (as amended)
               </strong>
@@ -2188,7 +1657,7 @@ const Policy = () => {
             <p> </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -2207,7 +1676,7 @@ const Policy = () => {
                 demonstrate compliance with UK food hygiene standards.
               </li>
               <li>
-                Registration: Evergreen Wholesalers is registered with the
+                Registration: Classveg is registered with the
                 appropriate local authority and undergoes regular inspections.
               </li>
             </ul>
@@ -2236,7 +1705,7 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Evergreen Wholesalers is committed to ensuring the
+                <br /> Classveg is committed to ensuring the
                 hygiene of our products and compliance with all relevant UK
                 legislation, including the Food Hygiene Regulations 2006 (as
                 amended).
@@ -2249,7 +1718,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Guidance on Compliance with the Food Hygiene (England)
                 Regulations 2013
               </strong>
@@ -2327,7 +1796,7 @@ const Policy = () => {
             <p> </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -2345,7 +1814,7 @@ const Policy = () => {
                 potential hazards and control them effectively.
               </li>
               <li>
-                Registration: Evergreen Wholesalers is registered with the
+                Registration: Classveg is registered with the
                 appropriate local authority and undergoes regular inspections.
               </li>
             </ul>
@@ -2376,7 +1845,7 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Evergreen Wholesalers is committed to ensuring the
+                <br /> Classveg is committed to ensuring the
                 hygiene of our products and compliance with all relevant
                 legislation, including the Food Hygiene (England) Regulations
                 2013.
@@ -2393,7 +1862,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Guidance on Compliance with Country of Origin Labelling
                 under the Food Information Regulations EU/1169/2011 (FIR)
               </strong>
@@ -2464,7 +1933,7 @@ const Policy = () => {
             <p> </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -2507,7 +1976,7 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Evergreen Wholesalers is committed to ensuring
+                <br /> Classveg is committed to ensuring
                 transparent and accurate country of origin labelling on our
                 products, in compliance with the Food Information Regulations
                 EU/1169/2011.
@@ -2521,7 +1990,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Guidance on Compliance with the Food Information
                 Regulations EU/1169/2011 (FIR)
               </strong>
@@ -2533,7 +2002,7 @@ const Policy = () => {
               <li>
                 <strong> Introduction:</strong>
                 <br /> This guidance document outlines the measures taken by
-                Evergreen Wholesalers to ensure compliance with the Food
+                Classveg to ensure compliance with the Food
                 Information Regulations EU/1169/2011.
               </li>
             </ol>
@@ -2596,7 +2065,7 @@ const Policy = () => {
             <p> </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -2640,7 +2109,7 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Evergreen Wholesalers is committed to providing
+                <br /> Classveg is committed to providing
                 transparent and accurate information on our products, in
                 compliance with the Food Information Regulations EU/1169/2011.
               </li>
@@ -2652,7 +2121,7 @@ const Policy = () => {
           <>
             <p>
               <strong>
-                Evergreen Wholesalers
+                Classveg
                 <br /> Compliance with the BASE Code of the Ethical Trading
                 Initiative (ETI)
               </strong>
@@ -2682,7 +2151,7 @@ const Policy = () => {
                   Scope:
                   <br />{" "}
                 </strong>
-                This guidance covers all operations of Evergreen Wholesalers and
+                This guidance covers all operations of Classveg and
                 its supply chain.
               </li>
             </ol>
@@ -2759,7 +2228,7 @@ const Policy = () => {
             </p>
             <ol start={5}>
               <li>
-                <strong> Measures Taken by Evergreen Wholesalers:</strong>
+                <strong> Measures Taken by Classveg:</strong>
               </li>
             </ol>
             <ul>
@@ -2819,7 +2288,7 @@ const Policy = () => {
                   Conclusion:
                   <br />{" "}
                 </strong>
-                Evergreen Wholesalers is committed to ethical trading and
+                Classveg is committed to ethical trading and
                 upholding the principles set out in the BASE code of the Ethical
                 Trading Initiative.
               </li>

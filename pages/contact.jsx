@@ -2,7 +2,6 @@ import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 import PhotoGallery from "../src/components/slider/PhotoGallery";
 
-
 const ContactUs = () => {
   return (
     <Layout header={1}>
@@ -20,7 +19,9 @@ const ContactUs = () => {
                 </div>
                 <div className="content">
                   <h4>Location</h4>
-                  <span>New Smithfield Market, Manchester</span>
+                  <span>Depot locations – 	Nottingham, UK Blackburn, UK Bradford, UK eeds, UK</span><br/>
+                  <span>HQ – Shadwell, Leeds</span>
+                  
                 </div>
               </div>
             </div>
@@ -43,7 +44,7 @@ const ContactUs = () => {
                 </div>
                 <div className="content">
                   <h4>Phone Us</h4>
-                  <a href="callto:01612318244">0161 231 8244</a>
+                  <a href="callto:01133228534">0113 322 8534</a>
                 </div>
               </div>
             </div>
@@ -193,7 +194,6 @@ const ContactUs = () => {
       <section className="gallery-area pt-60 rpt-60 pb-100 rpb-80">
         <PhotoGallery />
       </section>
-      
     </Layout>
   );
 };

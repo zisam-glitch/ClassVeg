@@ -19,7 +19,7 @@ const About = () => {
                   <h2>The Mission and Story behind Classveg</h2>
                 </div>
                 <p className="fz-20">
-                  Bettaveg was set up in 2002 by our Managing Director, Mandy.
+                  Classveg was set up in 2002 by our Managing Director, Mandy.
                   Mandy has been in the fresh produce sector all of her life,
                   following in the footsteps of her Dad, Lawrence Liptrott, a
                   leading light in the industry.
@@ -37,16 +37,7 @@ const About = () => {
                   <li>1000+ Quality Products</li>
                 </ul>
                 <div className="slider-btns mt-30">
-                  <Link href="/about">
-                    <a className="theme-btn style-two pe-20">
-                      Learn More <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
-                  <Link href="/about">
-                    <a className="theme-btn style-three">
-                      Learn More <i className="fas fa-angle-double-right" />
-                    </a>
-                  </Link>
+                 
                 </div>
               </div>
             </div>

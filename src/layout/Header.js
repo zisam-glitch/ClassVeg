@@ -44,7 +44,7 @@ const SearchBtn = () => {
 const DaskTopMenu = () => (
   <ul className="navigation clearfix d-none d-lg-flex">
     <li className="dropdown">
-      <a href="/what-we-offer">What We Offer</a>
+      <a href="/what-we-offer">Fruit & Veg</a>
     </li>
     <li className="dropdown">
       <a href="/about">About</a>
@@ -286,7 +286,7 @@ const Header1 = () => (
               <i className="far fa-user-circle" />
             </button> */}
             
-              <a href="callto:01612318244" className="theme-btn">
+              <a href="callto:01133228534" className="theme-btn">
               Call Us <i className="fa fa-phone" />
               </a>
             
