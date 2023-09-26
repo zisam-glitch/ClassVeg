@@ -3,7 +3,7 @@ import Layout from "../src/layout/Layout";
 const Policy = () => {
   return (
     <Layout header={1}>
-      <div className="cont" >
+      <div className="cont">
         <h2 className="center p-60">Standards and Legislations</h2>
         <details>
           <summary>Classveg Overview</summary>
@@ -13,22 +13,21 @@ const Policy = () => {
           <ol>
             <li>
               <strong> Executive Summary:</strong>
-              <br /> Classveg is not just a food distribution
-              company; we are a partner in promoting health and well-being. With
-              our proven track record, we are uniquely positioned to support the
-              SFVS initiative, ensuring that every child receives the freshest
-              and most nutritious produce.
+              <br /> Classveg is not just a food distribution company; we are a
+              partner in promoting health and well-being. With our proven track
+              record, we are uniquely positioned to support the SFVS initiative,
+              ensuring that every child receives the freshest and most
+              nutritious produce.
             </li>
           </ol>
           <p> </p>
           <ol start={2}>
             <li>
               <strong> Company Profile:</strong>
-              <br /> For over 10 Years, Classveg has been at the
-              forefront of food distribution, championing quality, freshness,
-              and reliability. Our dedicated team, has successfully managed
-              complex distribution projects, ensuring timely and efficient
-              delivery.
+              <br /> For over 10 Years, Classveg has been at the forefront of
+              food distribution, championing quality, freshness, and
+              reliability. Our dedicated team, has successfully managed complex
+              distribution projects, ensuring timely and efficient delivery.
             </li>
           </ol>
           <p> </p>
@@ -113,10 +112,10 @@ const Policy = () => {
           <ol start={10}>
             <li>
               <strong> Conclusion:</strong>
-              <br /> Choosing Classveg is choosing a dedicated
-              partner, committed to the health and well-being of England's
-              children. We are excited about the possibility of this
-              collaboration and are ready to embark on this journey with you.
+              <br /> Choosing Classveg is choosing a dedicated partner,
+              committed to the health and well-being of England's children. We
+              are excited about the possibility of this collaboration and are
+              ready to embark on this journey with you.
             </li>
           </ol>
           <p> </p>
@@ -494,8 +493,7 @@ const Policy = () => {
             <p> </p>
           </>
         </details>
-        
-        
+
         <details>
           <summary>Standards And Legislation</summary>
           <>
@@ -554,10 +552,10 @@ const Policy = () => {
             <ol>
               <li>
                 <strong> Introduction:</strong>
-                <br /> Classveg is dedicated to ensuring the safety
-                and quality of our fresh produce. This HACCP plan outlines our
-                systematic approach to identifying, evaluating, and controlling
-                potential food safety hazards.
+                <br /> Classveg is dedicated to ensuring the safety and quality
+                of our fresh produce. This HACCP plan outlines our systematic
+                approach to identifying, evaluating, and controlling potential
+                food safety hazards.
               </li>
             </ol>
             <p> </p>
@@ -789,9 +787,9 @@ const Policy = () => {
             <p> </p>
             <p>
               <strong>8. Conclusion:</strong>
-              <br /> Classveg is committed to ensuring the safety
-              of our products and compliance with all relevant legislation,
-              including the Food Safety Act 1990 and its amendments.
+              <br /> Classveg is committed to ensuring the safety of our
+              products and compliance with all relevant legislation, including
+              the Food Safety Act 1990 and its amendments.
               <br /> <br />{" "}
             </p>
           </>
@@ -818,18 +816,17 @@ const Policy = () => {
                   Introduction:
                   <br />{" "}
                 </strong>
-                This document outlines the measures taken by Evergreen
-                Wholesalers to ensure compliance with the Food Safety (General
-                Food Hygiene) Regulations 1995.
+                This document outlines the measures taken by Classveg to ensure
+                compliance with the Food Safety (General Food Hygiene)
+                Regulations 1995.
               </li>
             </ol>
             <p> </p>
             <ol start={2}>
               <li>
                 <strong> Scope:</strong>
-                <br /> This document covers all operations of Evergreen
-                Wholesalers, including sourcing, storage, and distribution of
-                food products.
+                <br /> This document covers all operations of Classveg,
+                including sourcing, storage, and distribution of food products.
               </li>
             </ol>
             <p> </p>
@@ -920,10 +917,9 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Classveg is committed to ensuring the safety
-                of our products and compliance with all relevant legislation,
-                including the Food Safety (General Food Hygiene) Regulations
-                1995.
+                <br /> Classveg is committed to ensuring the safety of our
+                products and compliance with all relevant legislation, including
+                the Food Safety (General Food Hygiene) Regulations 1995.
               </li>
             </ol>
           </>
@@ -945,19 +941,19 @@ const Policy = () => {
             <ol>
               <li>
                 <strong> Introduction:</strong>
-                <br /> This document outlines the measures taken by Evergreen
-                Wholesalers to ensure compliance with Regulation (EC) No.
-                178/2002, which lays down the general principles and
-                requirements of food law within the European Union.
+                <br /> This document outlines the measures taken by Classveg to
+                ensure compliance with Regulation (EC) No. 178/2002, which lays
+                down the general principles and requirements of food law within
+                the European Union.
               </li>
             </ol>
             <p> </p>
             <ol start={2}>
               <li>
                 <strong> Scope:</strong>
-                <br /> This document covers all operations of Evergreen
-                Wholesalers, including sourcing, storage, and distribution of
-                food products within the European Union.
+                <br /> This document covers all operations of Classveg,
+                including sourcing, storage, and distribution of food products
+                within the European Union.
               </li>
             </ol>
             <p> </p>
@@ -998,8 +994,7 @@ const Policy = () => {
               </li>
               <li>
                 Responsibility: The food industry is primarily responsible for
-                food safety, and Classveg takes this responsibility
-                seriously.
+                food safety, and Classveg takes this responsibility seriously.
               </li>
             </ul>
             <p> </p>
@@ -1052,8 +1047,8 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Classveg is committed to ensuring the safety
-                of our products and compliance with all relevant EU legislation,
+                <br /> Classveg is committed to ensuring the safety of our
+                products and compliance with all relevant EU legislation,
                 including Regulation (EC) No. 178/2002.
               </li>
             </ol>
@@ -1075,19 +1070,19 @@ const Policy = () => {
             <ol>
               <li>
                 <strong> Introduction:</strong>
-                <br /> This document outlines the measures taken by Evergreen
-                Wholesalers to ensure compliance with Regulation (EC) No.
-                852/2004, which sets out general hygiene requirements for food
-                business operators within the European Union.
+                <br /> This document outlines the measures taken by Classveg to
+                ensure compliance with Regulation (EC) No. 852/2004, which sets
+                out general hygiene requirements for food business operators
+                within the European Union.
               </li>
             </ol>
             <p> </p>
             <ol start={2}>
               <li>
                 <strong> Scope:</strong>
-                <br /> This document covers all operations of Evergreen
-                Wholesalers, including sourcing, storage, and distribution of
-                food products within the European Union.
+                <br /> This document covers all operations of Classveg,
+                including sourcing, storage, and distribution of food products
+                within the European Union.
               </li>
             </ol>
             <p> </p>
@@ -1176,9 +1171,9 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Classveg is committed to ensuring the
-                hygiene of our products and compliance with all relevant EU
-                legislation, including Regulation (EC) No. 852/2004.
+                <br /> Classveg is committed to ensuring the hygiene of our
+                products and compliance with all relevant EU legislation,
+                including Regulation (EC) No. 852/2004.
               </li>
             </ol>
           </>
@@ -1200,20 +1195,19 @@ const Policy = () => {
             <ol>
               <li>
                 <strong> Introduction:</strong>
-                <br /> This document outlines the measures taken by Evergreen
-                Wholesalers to ensure compliance with Regulation (EC) No.
-                853/2004, which sets out specific hygiene rules for food
-                business operators handling animal products within the European
-                Union.
+                <br /> This document outlines the measures taken by Classveg to
+                ensure compliance with Regulation (EC) No. 853/2004, which sets
+                out specific hygiene rules for food business operators handling
+                animal products within the European Union.
               </li>
             </ol>
             <p> </p>
             <ol start={2}>
               <li>
                 <strong> Scope:</strong>
-                <br /> This document covers all operations of Evergreen
-                Wholesalers that pertain to the handling, storage, and
-                distribution of animal products within the European Union.
+                <br /> This document covers all operations of Classveg that
+                pertain to the handling, storage, and distribution of animal
+                products within the European Union.
               </li>
             </ol>
             <p> </p>
@@ -1304,9 +1298,9 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Classveg is committed to ensuring the
-                hygiene of our animal products and compliance with all relevant
-                EU legislation, including Regulation (EC) No. 853/2004.
+                <br /> Classveg is committed to ensuring the hygiene of our
+                animal products and compliance with all relevant EU legislation,
+                including Regulation (EC) No. 853/2004.
               </li>
             </ol>
           </>
@@ -1328,19 +1322,19 @@ const Policy = () => {
             <ol>
               <li>
                 <strong> Introduction:</strong>
-                <br /> This document outlines the measures taken by Evergreen
-                Wholesalers to ensure compliance with Regulation (EC) No.
-                2073/2005, which sets out microbiological criteria for
-                foodstuffs within the European Union.
+                <br /> This document outlines the measures taken by Classveg to
+                ensure compliance with Regulation (EC) No. 2073/2005, which sets
+                out microbiological criteria for foodstuffs within the European
+                Union.
               </li>
             </ol>
             <p> </p>
             <ol start={2}>
               <li>
                 <strong> Scope:</strong>
-                <br /> This document covers all operations of Evergreen
-                Wholesalers that pertain to the handling, storage, and
-                distribution of food products within the European Union.
+                <br /> This document covers all operations of Classveg that
+                pertain to the handling, storage, and distribution of food
+                products within the European Union.
               </li>
             </ol>
             <p> </p>
@@ -1439,10 +1433,9 @@ const Policy = () => {
                   Conclusion:
                   <br />{" "}
                 </strong>
-                Classveg is committed to ensuring the
-                microbiological safety of our products and compliance with all
-                relevant EU legislation, including Regulation (EC) No.
-                2073/2005.
+                Classveg is committed to ensuring the microbiological safety of
+                our products and compliance with all relevant EU legislation,
+                including Regulation (EC) No. 2073/2005.
               </li>
             </ol>
           </>
@@ -1462,18 +1455,18 @@ const Policy = () => {
               <li>
                 <strong> Introduction:</strong>
                 <br /> This guidance document outlines the measures taken by
-                Classveg to ensure compliance with the General Food
-                Regulations 2004, which enforces the provisions of the European
-                Regulation (EC) No. 178/2002 within the UK.
+                Classveg to ensure compliance with the General Food Regulations
+                2004, which enforces the provisions of the European Regulation
+                (EC) No. 178/2002 within the UK.
               </li>
             </ol>
             <p> </p>
             <ol start={2}>
               <li>
                 <strong> Scope:</strong>
-                <br /> This guidance covers all operations of Evergreen
-                Wholesalers that pertain to the handling, storage, and
-                distribution of food products within the UK.
+                <br /> This guidance covers all operations of Classveg that
+                pertain to the handling, storage, and distribution of food
+                products within the UK.
               </li>
             </ol>
             <p> </p>
@@ -1567,8 +1560,8 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Classveg is committed to ensuring the safety
-                of our products and compliance with all relevant UK legislation,
+                <br /> Classveg is committed to ensuring the safety of our
+                products and compliance with all relevant UK legislation,
                 including the General Food Regulations 2004.
               </li>
             </ol>
@@ -1597,19 +1590,19 @@ const Policy = () => {
                   Introduction:
                   <br />{" "}
                 </strong>
-                This guidance document outlines the measures taken by Evergreen
-                Wholesalers to ensure compliance with the Food Hygiene
-                Regulations 2006 (as amended) applicable in England, Wales,
-                Scotland, and Northern Ireland.
+                This guidance document outlines the measures taken by Classveg
+                to ensure compliance with the Food Hygiene Regulations 2006 (as
+                amended) applicable in England, Wales, Scotland, and Northern
+                Ireland.
               </li>
             </ol>
             <p> </p>
             <ol start={2}>
               <li>
                 <strong> Scope:</strong>
-                <br /> This guidance covers all operations of Evergreen
-                Wholesalers that pertain to the handling, storage, and
-                distribution of food products within the UK.
+                <br /> This guidance covers all operations of Classveg that
+                pertain to the handling, storage, and distribution of food
+                products within the UK.
               </li>
             </ol>
             <p> </p>
@@ -1676,8 +1669,8 @@ const Policy = () => {
                 demonstrate compliance with UK food hygiene standards.
               </li>
               <li>
-                Registration: Classveg is registered with the
-                appropriate local authority and undergoes regular inspections.
+                Registration: Classveg is registered with the appropriate local
+                authority and undergoes regular inspections.
               </li>
             </ul>
             <p> </p>
@@ -1705,10 +1698,9 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Classveg is committed to ensuring the
-                hygiene of our products and compliance with all relevant UK
-                legislation, including the Food Hygiene Regulations 2006 (as
-                amended).
+                <br /> Classveg is committed to ensuring the hygiene of our
+                products and compliance with all relevant UK legislation,
+                including the Food Hygiene Regulations 2006 (as amended).
               </li>
             </ol>
           </>
@@ -1733,18 +1725,18 @@ const Policy = () => {
                   Introduction:
                   <br />{" "}
                 </strong>
-                This guidance document outlines the measures taken by Evergreen
-                Wholesalers to ensure compliance with the Food Hygiene (England)
-                Regulations 2013.
+                This guidance document outlines the measures taken by Classveg
+                to ensure compliance with the Food Hygiene (England) Regulations
+                2013.
               </li>
             </ol>
             <p> </p>
             <ol start={2}>
               <li>
                 <strong> Scope:</strong>
-                <br /> This guidance covers all operations of Evergreen
-                Wholesalers that pertain to the handling, storage, and
-                distribution of food products within England.
+                <br /> This guidance covers all operations of Classveg that
+                pertain to the handling, storage, and distribution of food
+                products within England.
               </li>
             </ol>
             <p>
@@ -1814,8 +1806,8 @@ const Policy = () => {
                 potential hazards and control them effectively.
               </li>
               <li>
-                Registration: Classveg is registered with the
-                appropriate local authority and undergoes regular inspections.
+                Registration: Classveg is registered with the appropriate local
+                authority and undergoes regular inspections.
               </li>
             </ul>
             <p> </p>
@@ -1845,10 +1837,9 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Classveg is committed to ensuring the
-                hygiene of our products and compliance with all relevant
-                legislation, including the Food Hygiene (England) Regulations
-                2013.
+                <br /> Classveg is committed to ensuring the hygiene of our
+                products and compliance with all relevant legislation, including
+                the Food Hygiene (England) Regulations 2013.
               </li>
             </ol>
           </>
@@ -1877,9 +1868,9 @@ const Policy = () => {
                   Introduction:
                   <br />{" "}
                 </strong>
-                This guidance document outlines the measures taken by Evergreen
-                Wholesalers to ensure compliance with country of origin
-                labelling requirements under the Food Information Regulations
+                This guidance document outlines the measures taken by Classveg
+                to ensure compliance with country of origin labelling
+                requirements under the Food Information Regulations
                 EU/1169/2011.
               </li>
             </ol>
@@ -1887,9 +1878,8 @@ const Policy = () => {
             <ol start={2}>
               <li>
                 <strong> Scope:</strong>
-                <br /> This guidance covers all operations of Evergreen
-                Wholesalers that pertain to the labelling and distribution of
-                food products.
+                <br /> This guidance covers all operations of Classveg that
+                pertain to the labelling and distribution of food products.
               </li>
             </ol>
             <p> </p>
@@ -1976,10 +1966,9 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Classveg is committed to ensuring
-                transparent and accurate country of origin labelling on our
-                products, in compliance with the Food Information Regulations
-                EU/1169/2011.
+                <br /> Classveg is committed to ensuring transparent and
+                accurate country of origin labelling on our products, in
+                compliance with the Food Information Regulations EU/1169/2011.
               </li>
             </ol>
             <p> </p>
@@ -2002,8 +1991,8 @@ const Policy = () => {
               <li>
                 <strong> Introduction:</strong>
                 <br /> This guidance document outlines the measures taken by
-                Classveg to ensure compliance with the Food
-                Information Regulations EU/1169/2011.
+                Classveg to ensure compliance with the Food Information
+                Regulations EU/1169/2011.
               </li>
             </ol>
             <p>
@@ -2012,9 +2001,9 @@ const Policy = () => {
             <ol start={2}>
               <li>
                 <strong> Scope:</strong>
-                <br /> This guidance covers all operations of Evergreen
-                Wholesalers that pertain to the labelling, presentation, and
-                advertising of food products.
+                <br /> This guidance covers all operations of Classveg that
+                pertain to the labelling, presentation, and advertising of food
+                products.
               </li>
             </ol>
             <p> </p>
@@ -2109,9 +2098,9 @@ const Policy = () => {
             <ol start={8}>
               <li>
                 <strong> Conclusion:</strong>
-                <br /> Classveg is committed to providing
-                transparent and accurate information on our products, in
-                compliance with the Food Information Regulations EU/1169/2011.
+                <br /> Classveg is committed to providing transparent and
+                accurate information on our products, in compliance with the
+                Food Information Regulations EU/1169/2011.
               </li>
             </ol>
           </>
@@ -2136,9 +2125,8 @@ const Policy = () => {
                   Introduction:
                   <br />{" "}
                 </strong>
-                This document outlines the measures taken by Evergreen
-                Wholesalers to ensure compliance with the BASE code of the
-                Ethical Trading Initiative.
+                This document outlines the measures taken by Classveg to ensure
+                compliance with the BASE code of the Ethical Trading Initiative.
               </li>
             </ol>
             <p>
@@ -2151,8 +2139,8 @@ const Policy = () => {
                   Scope:
                   <br />{" "}
                 </strong>
-                This guidance covers all operations of Classveg and
-                its supply chain.
+                This guidance covers all operations of Classveg and its supply
+                chain.
               </li>
             </ol>
             <p>
@@ -2288,9 +2276,9 @@ const Policy = () => {
                   Conclusion:
                   <br />{" "}
                 </strong>
-                Classveg is committed to ethical trading and
-                upholding the principles set out in the BASE code of the Ethical
-                Trading Initiative.
+                Classveg is committed to ethical trading and upholding the
+                principles set out in the BASE code of the Ethical Trading
+                Initiative.
               </li>
             </ol>
           </>

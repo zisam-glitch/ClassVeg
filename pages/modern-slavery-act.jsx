@@ -94,8 +94,8 @@ const Policy = () => {
           <p> </p>
           <p>
             This statement is made in accordance with Section 54(1) of the
-            Modern Slavery Act 2015 and has been approved by Evergreen
-            Wholesaler's Board of Directors on 1<sup>st</sup> January 2023
+            Modern Slavery Act 2015 and has been approved by Classveg Board of
+            Directors on 1<sup>st</sup> January 2023
           </p>
           <p> </p>
           <p>Signed,</p>
