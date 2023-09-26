@@ -4,7 +4,7 @@ const Policy = () => {
   return (
     <Layout header={1}>
       <div className="cont">
-        <h2 className="center p-60">Social Value Policy</h2>
+        <h2 className="center p-60">Company Policy</h2>
         <details>
           <summary>Environmental Policy</summary>
           <ul>

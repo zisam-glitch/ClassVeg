@@ -6074,7 +6074,8 @@ summary{
 .cont{
   max-width: 1200px;
   margin: auto;
-  padding: 120px 0;
+  padding: 120px 30px;
+
 }
 .product-item .price del {
   color: #b1b1b1;
