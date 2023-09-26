@@ -1,8 +1,50 @@
 import PageBanner from "../src/components/PageBanner";
 import Layout from "../src/layout/Layout";
 import PhotoGallery from "../src/components/slider/PhotoGallery";
+import emailjs from "emailjs-com";
+import { useState } from "react";
 
 const ContactUs = () => {
+  const [mailData, setMailData] = useState({
+    name: "",
+    email: "",
+    number: "",
+    message: "",
+  });
+  const { name, number, email, message } = mailData;
+  const [error, setError] = useState(null);
+  const onChange = (e) =>
+    setMailData({ ...mailData, [e.target.name]: e.target.value });
+  const onSubmit = (e) => {
+    e.preventDefault();
+    if (name.length === 0 || email.length === 0 || message.length === 0) {
+      setError(true);
+      clearError();
+    } else {
+      emailjs
+        .send(
+          "service_7uyklsq", // service id
+          "template_juin5n6", // template id
+          mailData,
+          "Wk-r_Bw2hP7Po86q1" // public api
+        )
+        .then(
+          (response) => {
+            setError(false);
+            clearError();
+            setMailData({ name: "", email: "", number: "", message: "" });
+          },
+          (err) => {
+            console.log(err.text);
+          }
+        );
+    }
+  };
+  const clearError = () => {
+    setTimeout(() => {
+      setError(null);
+    }, 2000);
+  };
   return (
     <Layout header={1}>
       <PageBanner pageName={"Contact Us"} />{" "}
@@ -19,9 +61,12 @@ const ContactUs = () => {
                 </div>
                 <div className="content">
                   <h4>Location</h4>
-                  <span>Depot locations – 	Nottingham, UK Blackburn, UK Bradford, UK eeds, UK</span><br/>
+                  <span>
+                    Depot locations – Nottingham, UK Blackburn, UK Bradford, UK
+                    eeds, UK
+                  </span>
+                  <br />
                   <span>HQ – Shadwell, Leeds</span>
-                  
                 </div>
               </div>
             </div>
@@ -70,12 +115,12 @@ const ContactUs = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <form
-                onSubmit={(e) => e.preventDefault()}
-                id="contactForm"
-                className="contact-form rmb-65 wow fadeInLeft delay-0-2s"
-                name="contactForm"
-                action="assets/php/form-process.php"
+                action="/"
                 method="post"
+                className="contact_form"
+                id="contact_form"
+                autoComplete="off"
+                onSubmit={(e) => onSubmit(e)}
               >
                 <div className="section-title contact-title mb-55">
                   <span className="sub-title mb-15">Contact With Us</span>
@@ -84,18 +129,27 @@ const ContactUs = () => {
                     with a quote and more information on how we can help your
                     business.
                   </p>
+                  <div
+                    className={error ? "empty_notice" : "returnmessage"}
+                    style={{ display: error == null ? "none" : "block" }}
+                  >
+                    <span>
+                      {error
+                        ? "Please Fill Required Fields"
+                        : "Your message has been received, We will contact you soon."}
+                    </span>
+                  </div>
                 </div>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        type="text"
                         id="name"
+                        type="text"
                         name="name"
-                        className="form-control"
-                        defaultValue=""
+                        onChange={(e) => onChange(e)}
+                        value={name}
                         placeholder="Full Name"
-                        required=""
                         data-error="Please enter your name"
                       />
                       <div className="help-block with-errors" />
@@ -104,14 +158,12 @@ const ContactUs = () => {
                   <div className="col-md-6">
                     <div className="form-group">
                       <input
-                        type="text"
-                        id="phone"
-                        name="phone"
-                        className="form-control"
-                        defaultValue=""
-                        placeholder="Phone Number"
-                        required=""
-                        data-error="Please enter your Phone Number"
+                         id="number"
+                         type="number"
+                         placeholder="Phone Number"
+                         name="number"
+                         onChange={(e) => onChange(e)}
+                         value={number}
                       />
                       <div className="help-block with-errors" />
                     </div>
@@ -119,14 +171,12 @@ const ContactUs = () => {
                   <div className="col-md-12">
                     <div className="form-group">
                       <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        className="form-control"
-                        defaultValue=""
-                        placeholder="Email Address"
-                        required=""
-                        data-error="Please enter your Adderss"
+                         id="email"
+                         type="text"
+                         placeholder="Email Address"
+                         name="email"
+                         onChange={(e) => onChange(e)}
+                         value={email}
                       />
                       <div className="help-block with-errors" />
                     </div>
@@ -134,14 +184,11 @@ const ContactUs = () => {
                   <div className="col-md-12">
                     <div className="form-group">
                       <textarea
-                        name="message"
                         id="message"
-                        className="form-control"
-                        rows={4}
                         placeholder="Write Message"
-                        required=""
-                        data-error="Please enter your Message"
-                        defaultValue={""}
+                        name="message"
+                        onChange={(e) => onChange(e)}
+                        value={message}
                       />
                       <div className="help-block with-errors" />
                     </div>
@@ -149,7 +196,7 @@ const ContactUs = () => {
                   <div className="col-md-12">
                     <div className="form-group mb-0">
                       <button type="submit" className="theme-btn style-two">
-                        Send Message
+                        <a id="send_message" onClick={(e) => onSubmit(e)}>Send Message</a>
                         <i className="fas fa-angle-double-right" />
                       </button>
                       <div id="msgSubmit" className="hidden" />

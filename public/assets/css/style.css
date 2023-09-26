@@ -6232,6 +6232,10 @@ summary{
 .product-details-content .category-tags li span {
   margin-right: 25px;
 }
+.round{
+  border-radius: 50%;
+  width: 40px;
+}
 
 .product-information-tab li a.nav-link {
   font-size: 24px;

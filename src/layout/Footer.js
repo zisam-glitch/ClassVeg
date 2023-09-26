@@ -55,11 +55,13 @@ const DefaultFooter = () => (
               </Link>
             </div>
             <p>
-              Website Built By :
-              <a href="https://www.growwithsayed.com/" target="_blank">
-                {" "}
-                Grow With Sayed{" "}
-              </a>
+              <span>Website Built By :</span>
+              <span>
+                <a href="https://www.growwithsayed.com/" target="_blank">
+                  {" "}
+                  <img className="round" src="https://res.cloudinary.com/db1i46uiv/image/upload/v1693167592/kwoti43brdc_tvolfl.jpg" />
+                </a>
+              </span>
             </p>
             <div className="social-style-two pt-10">
               <Link href="/contact">
